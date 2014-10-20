@@ -56,7 +56,7 @@
         [body appendData:musicdata];
     //最後にバウンダリ文字列を追加
         [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-        //ヘッダー情報を追加
+    //ヘッダContent-typeに情報を追加
         [request addValue:contentType forHTTPHeaderField:@"Content-Type"];
     //リクエストのボディ部分に変数bodyをセット
         [request setHTTPBody:body];
