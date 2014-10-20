@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87272A3719F5CDC300C0ADCD /* file.php in Resources */ = {isa = PBXBuildFile; fileRef = 87272A3619F5CDC300C0ADCD /* file.php */; };
 		873A4DB119F542FD007A1139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A4DB019F542FD007A1139 /* main.m */; };
 		873A4DB419F542FD007A1139 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A4DB319F542FD007A1139 /* AppDelegate.m */; };
 		873A4DB719F542FD007A1139 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A4DB619F542FD007A1139 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		873A4DBC19F542FD007A1139 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873A4DBB19F542FD007A1139 /* Images.xcassets */; };
 		873A4DBF19F542FD007A1139 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873A4DBD19F542FD007A1139 /* LaunchScreen.xib */; };
 		873A4DCB19F542FD007A1139 /* musicupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A4DCA19F542FD007A1139 /* musicupTests.m */; };
+		873A4DD519F54423007A1139 /* glass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 873A4DD419F54423007A1139 /* glass.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87272A3619F5CDC300C0ADCD /* file.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = file.php; path = ../../../Downloads/file.php; sourceTree = "<group>"; };
 		873A4DAB19F542FD007A1139 /* musicup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A4DAF19F542FD007A1139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873A4DB019F542FD007A1139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		873A4DC419F542FD007A1139 /* musicupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A4DC919F542FD007A1139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873A4DCA19F542FD007A1139 /* musicupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicupTests.m; sourceTree = "<group>"; };
+		873A4DD419F54423007A1139 /* glass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = glass.mp3; path = "../../../アプリの効果音/glass.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				873A4DAF19F542FD007A1139 /* Info.plist */,
+				87272A3619F5CDC300C0ADCD /* file.php */,
 				873A4DB019F542FD007A1139 /* main.m */,
+				873A4DD419F54423007A1139 /* glass.mp3 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87272A3719F5CDC300C0ADCD /* file.php in Resources */,
 				873A4DBA19F542FD007A1139 /* Main.storyboard in Resources */,
+				873A4DD519F54423007A1139 /* glass.mp3 in Resources */,
 				873A4DBF19F542FD007A1139 /* LaunchScreen.xib in Resources */,
 				873A4DBC19F542FD007A1139 /* Images.xcassets in Resources */,
 			);
@@ -412,6 +420,7 @@
 				873A4DD019F542FD007A1139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		873A4DD119F542FD007A1139 /* Build configuration list for PBXNativeTarget "musicupTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				873A4DD319F542FD007A1139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

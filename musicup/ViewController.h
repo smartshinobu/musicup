@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+//ボタンを押すと呼ばれるメソッド
+- (IBAction)upload:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @end
 
